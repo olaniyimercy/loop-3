@@ -1,0 +1,75 @@
+body{
+    background: #239f85;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.account{
+    border: 1px solid lightgray;
+    padding: 4px;
+    border-radius: 100%;
+}
+
+.account:hover{
+    cursor: pointer;
+}
+
+
+.bicycle{
+    width: 622px;
+    height: 219px;
+    position: relative;
+    bottom: -111px;
+    object-fit: cover;
+    object-position: 100% 23%;
+}
+
+
+.features{
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+.main{
+    background: white;
+    width: 516px;
+    height: 400px;
+    border-radius: 5px;
+    padding:20px 50px 20px 50px;
+    position: absolute;
+}
+
+.message{
+    font-family: sans-serif;
+    color: #817474;
+}
+
+
+.price{
+    font-weight: bold;
+    font-size: 17px;
+}
